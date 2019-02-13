@@ -23,7 +23,7 @@ int main()
     *(p+1)=b;
     b=a1;
     *(p+2)=b;
-    printf("Big Endian Conversion %x%x%x",*p,*(p+1),*(p+2));
+    printf("\nBig Endian Conversion %x%x%x",*p,*(p+1),*(p+2));
     return 0;
 
 }
