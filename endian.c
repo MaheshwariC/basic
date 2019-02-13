@@ -11,7 +11,7 @@ int main()
     p=(char *)&a;
     b=a;
     if(b==*p)
-        printf("System is Little Endian\n");
+        printf("\nSystem is Little Endian\n");
     else
         printf("System is Big Endian\n");
     printf("%x%x%x\n",*p,*(p+1),*(p+2));
