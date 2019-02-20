@@ -1,0 +1,7 @@
+language:c
+sudo:false #on;y for faster builds
+compiler:
+-gcc
+script:
+-gcc -o endian endian.c 
+-./wiper_system
